@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+    margin: 0 16%;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+header, footer {
+    background-color: rgb(97,210,163);
+    padding: 18px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+.logo {
+    color: white;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    font-size: 23px;
+}
+.nav-items {
+    margin-left: 15px;
+}
+img {
+    max-width: 100%;
+}
+.hero {
+    background-color: rgb(48,84,121);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+}
+.hero-content {
+    margin: 1em 0;
+}
+.call-to-action {
+    background-color: rgb(248,209,119);
+}
+section {
+    padding: 40px 20px;
+}
+.products {
+    background-color: rgb(242,242,242);
+}
+p {
+    padding: 16px;
+}
+.team-fun {
+    color: rgb(221,85,113);
+
+}
+.product-wrapper {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    padding: 15px;
+}
+.product-item {
+    border: 5px solid black;
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    text-transform: uppercase;
+}
+.about {
+    background-color: rgb(48,84,121);
+    color: white;
+}
+footer {
+    text-align: right;
+}
